@@ -511,7 +511,7 @@
 					<div class="chart" data-percent="97"><span><strong>MSSQL-Oracle-MySql</strong>97%</span></div>
 				</div>
 				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="90"><span><strong>AngularJS</strong>90%</span></div>
+					<div class="chart" data-percent="50"><span><strong>AngularJS (Just started learning)</strong>50%</span></div>
 				</div>
 				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
 					<div class="chart" data-percent="85"><span><strong>AWS - Azure</strong>85%</span></div>
@@ -784,57 +784,7 @@
 	</div>
 
 
-	<form   id="email_form">
 
-    <input type="text" name="subject" placeholder="Subject" />
-    <textarea name="text" placeholder="Message"></textarea>
-    <input type="hidden" name="access_token" value="fh6wghj34rz3skwfa96f2o6a" />
-      <!-- return urls can be fully qualified -OR-
-         start with / for root relative -OR-
-         start with . for url relative --> 
-    
-   
-
-    <!-- set the reply-to address -->
-     <input type="text" name="reply_to"
-                placeholder="Your Email" /> 
-
-    <!-- to append extra fields, use the extra_ prefix.
-        Entries will be appended to your message body. -->
-    <!-- <input type="text" name="extra_phone_number"
-                placeholder="Phone Number" /> -->
-
-    <!-- to split your message into 160 chars
-         for an sms gateway -->
-    <!-- <input type="hidden"
-                name="sms_format" value="true" /> -->
-   
-    <input id="submit_form" type="submit" value="Send" />
-    <!-- not required, but we'd appreciate it if you'd link to us somewhere on your site -->
-    
-</form>
-     
-
-	<input id="foo" type="button" value="xx"  />
-
-
-
-
-
-
-<!-- optional, prevents the submit button from being pressed more than once -->
-<script>
-    var submitButton = document.getElementById("submit_form");
-    var form = document.getElementById("email_form");
-    
-	form.addEventListener("submit", function (e) {
-        setTimeout(function() {
-            submitButton.value = "Sending...";
-            submitButton.disabled = true;
-        }, 1);
-    });
-
-</script> 
 
 
 
